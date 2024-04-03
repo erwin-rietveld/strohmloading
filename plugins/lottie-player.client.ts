@@ -1,5 +1,5 @@
-import * as LottiePlayer from '@lottiefiles/lottie-player'
+import * as LottiePlayer from "@lottiefiles/lottie-player";
 
 export default defineNuxtPlugin((nuxtApp) =>
-  nuxtApp.provide('lottieplayer', LottiePlayer),
-)
+  nuxtApp.provide("lottieplayer", LottiePlayer),
+);
